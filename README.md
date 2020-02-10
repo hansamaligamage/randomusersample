@@ -14,7 +14,7 @@
 ## Available APIs
 | Url            | Operation                              |    Usage       | Response                                                                                      
 | ------------------- | --------------------------------- | ----------------------------------- | -----------------------------------     
-| /users/create         | GET              | Retrieve 5 users from the random user API and save in the in memory datastore   | shows "Random users created in the memory" message in the "value" field                                       
+| /users/create         | GET              | Retrieve 5 users from the random user API and save in the Inmemory datastore   | shows "Random users created in the memory" message in the "value" field                                       
 | /users/get        | GET                             | Retrieve all users from the datastore | shows all users in the "value" field       
        
 

@@ -12,9 +12,9 @@
 
 
 ## Available APIs
-| Url            | Operation                              |    Usage                              | PUT                                           | DELETE                           |
-| ------------------- | --------------------------------- | ----------------------------------- | --------------------------------------------- | -------------------------------- |
-| /users/create         | GET              | Retrieve 5 users from the random user API and save in the in memory datastore          | Bulk update of customers                      | Remove all customers             |
-| /users/get        | GET                             | Retrieve all users from the datastore | Update the details of customer 1 if it exists | Remove customer 1                |
-| /customers/1/orders | Create a new order for customer 1 | Retrieve all orders for customer 1  | Bulk update of orders for customer 1          | Remove all orders for customer 1 |
+| Url            | Operation                              |    Usage                              |                                                               
+| ------------------- | --------------------------------- | ----------------------------------- | 
+| /users/create         | GET              | Retrieve 5 users from the random user API and save in the in memory datastore          |                             
+| /users/get        | GET                             | Retrieve all users from the datastore | 
+| /customers/1/orders | Create a new order for customer 1 | Retrieve all orders for customer 1  |          
 

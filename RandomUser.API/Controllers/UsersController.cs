@@ -28,7 +28,7 @@ namespace RandomUser.API.Controllers
         {
             var users = await _userApiService.GetUsers();
             await _userService.CreateUsers(users);
-            return CreatedAtAction(nameof(Get), new StatusMessage { Error = false });
+            return CreatedAtAction(nameof(Get), new StatusMessage { Error = false, Value = "Random users created in the memory" });
         }
 
         [Route("get")]

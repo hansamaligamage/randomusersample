@@ -16,5 +16,5 @@
 | ------------------- | --------------------------------- | ----------------------------------- | 
 | /users/create         | GET              | Retrieve 5 users from the random user API and save in the in memory datastore          |                             
 | /users/get        | GET                             | Retrieve all users from the datastore | 
-| /customers/1/orders | Create a new order for customer 1 | Retrieve all orders for customer 1  |          
+       
 
